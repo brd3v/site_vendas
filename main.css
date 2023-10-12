@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+header .container{
+    justify-content: space-between;
+  
+    color: #fff;
+}
+header{
+    background-color: #090909;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+
+
+}
+#inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#inicio .container{
+    padding: 3rem;
+    color: #fff; 
+    display: flex;
+    justify-content: center;
+    border: 2px solid #fcd000;
+    border-radius: 1rem;
+}
+
+#inicio .container .row{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+#inicio .container .row iframe{
+    max-height: 360px;
+    width: 80%;
+}
+#inicio .container .row button{
+    width: 300px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 20px;
+}
+#quem-sou-eu .container{
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+}
+#quem-sou-eu .container .row{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+#quem-sou-eu .container .row img{
+    height: 500px ;
+    margin-right: 2rem;
+}
+
+#form{
+    min-height: 90vh;
+    background-color: #090909;
+}
+
+#form .container{
+ height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#form .container .row{
+    width: 100%;
+    height: 400px;
+}
+#form .container .row h3{
+    color: #fcd000;
+}
+#form .container .row p {
+    color: #fff;
+}
+#carrosel {
+    min-height: 80vh;
+    width: 100%;
+}
+#carrosel .container{
+    text-align: center;
+}
+#carrosel .container h2{
+    font-weight: bold;
+    color: #fcd000;
+    margin-top: 2rem;
+    font-size: 50px;
+}
+.col-md-4{
+    margin-top: 3rem;
+}
+footer{
+    margin-top: 3rem;
+    text-align: center;
+}
